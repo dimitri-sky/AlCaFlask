@@ -24,7 +24,7 @@ A state-of-the-art stock prediction system that leverages deep learning (LSTM) t
 
    ```bash
    git clone https://github.com/dimitri-sky/AlCaFlask.git
-   cd stock-prediction
+   cd AlCaFlask
    ```
 
 2. Install the required packages:

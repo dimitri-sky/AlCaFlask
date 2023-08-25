@@ -30,7 +30,7 @@ A state-of-the-art stock prediction system that leverages deep learning (LSTM) t
 2. Install the required packages:
 
    ```bash
-   pip install flask numpy tensorflow yahoo_fin sklearn
+   pip install -r requirements.txt
    ```
 
 3. Run the Flask server:

@@ -14,9 +14,9 @@ LOOKUP_STEPS = [1, 2, 3]
 STOCK = 'AAPL'
 scaler = MinMaxScaler()
 
-# Flask application initialization
-application = Flask(__name__)
-CORS(application)
+# Flask app initialization
+app = Flask(__name__)
+CORS(app)
 
 # Load saved model
 model_path = 'saved_modelv4.h5'  # Adjust path accordingly
@@ -45,7 +45,7 @@ def prepare_data(stock, days):
     return round(float(predicted_price), 2), historical_data
 
 # Prediction endpoint
-@application.route('/predict', methods=['GET'])
+@app.route('/predict', methods=['GET'])
 def predict():
     symbol = request.args.get('symbol')
     predictions, historical_data = zip(*[prepare_data(symbol, step) for step in LOOKUP_STEPS])
@@ -55,5 +55,12 @@ def predict():
         "historical": historical_data[0]  # Since historical data will be the same for all LOOKUP_STEPS
     })
 
+# Test
+@app.route('/test', methods=['GET'])
+def test():
+    return jsonify({
+        "message": "Hello World!"
+    })
+
 if __name__ == "__main__":
-    application.run()
+    app.run()

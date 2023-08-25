@@ -22,22 +22,22 @@ A state-of-the-art stock prediction system that leverages deep learning (LSTM) t
 
 1. Clone the repository:
 
-   \```bash
-   git clone https://github.com/your-username/stock-prediction.git
+   ```bash
+   git clone https://github.com/dimitri-sky/AlCaFlask.git
    cd stock-prediction
-   \```
+   ```
 
 2. Install the required packages:
 
-   \```bash
+   ```bash
    pip install flask numpy tensorflow yahoo_fin sklearn
-   \```
+   ```
 
 3. Run the Flask server:
 
-   \```bash
+   ```bash
    python main.py
-   \```
+   ```
 
 ## Usage
 
@@ -45,17 +45,17 @@ A state-of-the-art stock prediction system that leverages deep learning (LSTM) t
 
 Send a GET request to the `/predict` endpoint with the stock symbol as a parameter.
 
-\```bash
+```bash
 curl http://127.0.0.1:5000/predict?symbol=AAPL
-\```
+```
 
 ### Training the Model
 
 Run the `train_model.py` script to train the model on the predefined stocks.
 
-\```bash
+```bash
 python train_model.py
-\```
+```
 
 ## Project Structure
 

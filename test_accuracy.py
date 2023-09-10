@@ -13,20 +13,19 @@ import math
 N_STEPS = 7
 LOOKUP_STEPS = [1, 2, 3]
 STOCKS = [
-    'GOOGL',  # Alphabet Inc. - Technology/Internet
-    'BAC',    # Bank of America - Financial/Banking
-    'JNJ',    # Johnson & Johnson - Health Care/Consumer Goods
-    'HD',     # The Home Depot - Retail/Home Improvement
-    'CVX',    # Chevron Corporation - Energy/Oil
-    'PEP',    # PepsiCo, Inc. - Consumer Goods/Food & Beverage
-    'VZ',     # Verizon Communications - Telecommunications
-    'BA',     # The Boeing Company - Aerospace/Defense
-    'BIIB',   # Biogen Inc. - Biotechnology
-    'EBAY',   # eBay Inc. - E-commerce/Technology
-    'DIS',    # The Walt Disney Company - Entertainment/Media
-    'UAL',    # United Airlines Holdings - Airline
+    'AAPL',  # Apple Inc. - Technology/Electronics
+    'JPM',   # JPMorgan Chase & Co. - Financial/Banking
+    'PFE',   # Pfizer Inc. - Health Care/Pharmaceuticals
+    'WMT',   # Walmart Inc. - Retail
+    'XOM',   # Exxon Mobil Corporation - Energy/Oil
+    'KO',    # The Coca-Cola Company - Consumer Goods/Beverages
+    'T',     # AT&T Inc. - Telecommunications
+    'GE',    # General Electric - Industrial/Conglomerate
+    'GILD',  # Gilead Sciences, Inc. - Biotechnology
+    'AMZN',  # Amazon.com Inc. - E-commerce/Technology
+    'NFLX',  # Netflix Inc. - Entertainment/Streaming
+    'DAL',   # Delta Air Lines Inc. - Airline
 ]
-
 
 # Initialize summary statistics
 total_directional_accuracy = 0

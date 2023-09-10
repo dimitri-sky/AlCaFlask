@@ -27,6 +27,18 @@ STOCKS = [
     'AMZN',  # Amazon.com Inc. - E-commerce/Technology
     'NFLX',  # Netflix Inc. - Entertainment/Streaming
     'DAL',   # Delta Air Lines Inc. - Airline
+    'GOOGL',  # Alphabet Inc. - Technology/Internet
+    'BAC',    # Bank of America - Financial/Banking
+    'JNJ',    # Johnson & Johnson - Health Care/Consumer Goods
+    'HD',     # The Home Depot - Retail/Home Improvement
+    'CVX',    # Chevron Corporation - Energy/Oil
+    'PEP',    # PepsiCo, Inc. - Consumer Goods/Food & Beverage
+    'VZ',     # Verizon Communications - Telecommunications
+    'BA',     # The Boeing Company - Aerospace/Defense
+    'BIIB',   # Biogen Inc. - Biotechnology
+    'EBAY',   # eBay Inc. - E-commerce/Technology
+    'DIS',    # The Walt Disney Company - Entertainment/Media
+    'UAL',    # United Airlines Holdings - Airline
 ]
 
 BATCH_SIZE = 8

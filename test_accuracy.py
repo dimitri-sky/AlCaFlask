@@ -13,21 +13,6 @@ import math
 N_STEPS = 7
 LOOKUP_STEPS = [1, 2, 3]
 STOCKS = [
-    'AAPL',  # Apple Inc. - Technology/Electronics
-    'JPM',   # JPMorgan Chase & Co. - Financial/Banking
-    'PFE',   # Pfizer Inc. - Health Care/Pharmaceuticals
-    'WMT',   # Walmart Inc. - Retail
-    'XOM',   # Exxon Mobil Corporation - Energy/Oil
-    'KO',    # The Coca-Cola Company - Consumer Goods/Beverages
-    'BA',    # The Boeing Company - Industrial/Aerospace
-    'T',     # AT&T Inc. - Telecommunications
-    'GE',    # General Electric - Industrial/Conglomerate
-    'DIS',   # The Walt Disney Company - Entertainment/Media
-    'GILD',  # Gilead Sciences, Inc. - Biotechnology
-    'F',     # Ford Motor Company - Automotive
-    'AMZN',  # Amazon.com Inc. - E-commerce/Technology
-    'NFLX',  # Netflix Inc. - Entertainment/Streaming
-    'DAL',   # Delta Air Lines Inc. - Airline
     'GOOGL',  # Alphabet Inc. - Technology/Internet
     'BAC',    # Bank of America - Financial/Banking
     'JNJ',    # Johnson & Johnson - Health Care/Consumer Goods

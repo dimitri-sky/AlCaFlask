@@ -1,6 +1,6 @@
 # Stock Prediction System
 
-A state-of-the-art stock prediction system that leverages deep learning (LSTM) to predict the stock prices of various companies for the upcoming 3 days. The system is implemented using TensorFlow and Flask, and it fetches real-time data from Yahoo Finance.
+An LSTM stock prediction system that leverages deep learning (LSTM) to predict the stock prices of various companies for the upcoming 3 days. The system is implemented using TensorFlow and Flask, and it fetches real-time data from Yahoo Finance.
 
 ## Table of Contents
 

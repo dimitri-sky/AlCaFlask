@@ -8,7 +8,7 @@
 An LSTM stock prediction system that leverages deep learning to predict the stock prices of various companies for the upcoming 3 days. The system is implemented using TensorFlow and Flask, and it fetches real-time data from Yahoo Finance.
 
 <div>
-   <h2>Front-End part at: <a href="https://github.com/cod-cs-club/almightycandle">https://www.almightycandle.com/</a></h2> 
+   <h2>Front-End part at: <a href="https://github.com/cod-cs-club/almightycandle">https://github.com/cod-cs-club/almightycandle</h2> 
 </div>
 
 

@@ -4,7 +4,7 @@ An LSTM stock prediction system that leverages deep learning to predict the stoc
 
 <div align="center">
    <h2>Front-End part at: <a href="https://github.com/cod-cs-club/almightycandle">https://www.almightycandle.com/</a> <br>
-      Visit Now: <a href="https://www.almightycandle.com/">almightycandle.com</a></h2> <br> Stock Prediction Website. (AWS)</h2> 
+      Visit Now: <a href="https://www.almightycandle.com/">almightycandle.com</a> <br> Stock Prediction Website. (AWS)</h2> 
 </div>
 
 

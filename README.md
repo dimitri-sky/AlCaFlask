@@ -1,10 +1,14 @@
+<div align="center">
+  <h1>Visit Now: <a href="https://www.almightycandle.com/">almightycandle.com</a></h1>
+  <h2>Stock Prediction Website. (AWS)</h2> 
+</div>
+
 # Back-End Stock Prediction System
 
 An LSTM stock prediction system that leverages deep learning to predict the stock prices of various companies for the upcoming 3 days. The system is implemented using TensorFlow and Flask, and it fetches real-time data from Yahoo Finance.
 
 <div>
-   <h2>Front-End part at: <a href="https://github.com/cod-cs-club/almightycandle">https://www.almightycandle.com/</a> <br>
-      Visit Now: <a href="https://www.almightycandle.com/">almightycandle.com</a> <br> Stock Prediction Website. (AWS)</h2> 
+   <h2>Front-End part at: <a href="https://github.com/cod-cs-club/almightycandle">https://www.almightycandle.com/</a></h2> 
 </div>
 
 

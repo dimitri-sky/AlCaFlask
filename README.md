@@ -1,6 +1,12 @@
-# Stock Prediction System
+# Back-End Stock Prediction System
 
 An LSTM stock prediction system that leverages deep learning to predict the stock prices of various companies for the upcoming 3 days. The system is implemented using TensorFlow and Flask, and it fetches real-time data from Yahoo Finance.
+<div align="center">
+   <h1>Front-End part at: <a href="https://github.com/cod-cs-club/almightycandle">almightycandle.com</a></h1>
+   <h1>Visit Now: <a href="https://www.almightycandle.com/">almightycandle.com</a></h1>
+   <h2>Stock Prediction Website. (AWS)</h2> 
+</div>
+
 
 ## Table of Contents
 

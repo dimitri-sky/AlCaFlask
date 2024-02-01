@@ -7,6 +7,8 @@
 
 An LSTM stock prediction system that leverages deep learning to predict the stock prices of various companies for the upcoming 3 days. The system is implemented using TensorFlow and Flask, and it fetches real-time data from Yahoo Finance.
 
+![compare](https://github.com/dimitri-sky/AlCaFlask/assets/67660328/c03f892e-4fa4-4a34-804d-949e820f99b8)
+
 ## Table of Contents
 
 - [Features](#features)
